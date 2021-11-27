@@ -1,5 +1,5 @@
 {
-    "name": "goaop/framework",
+    "name": "walterwoshid/framework",
     "description": "Framework for aspect-oriented programming in PHP.",
 
     "type": "library",
@@ -11,7 +11,7 @@
         "php": "^8.0",
         "doctrine/annotations": "^1.11.1",
         "doctrine/cache": "^1.10",
-        "goaop/parser-reflection": "dev-master",
+        "walterwoshid/parser-reflection": "^1.0.0",
         "jakubledl/dissect": "~1.0",
         "laminas/laminas-code": "^4.0",
         "symfony/finder": "^4.4|^5.1"
@@ -30,8 +30,17 @@
     
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/WalterWoshid/goaop-parser-reflection"
+            "type": "package",
+            "package": {
+                "name": "walterwoshid/goaop-parser-reflection",
+                "version": "^1.0.0",
+                "type": "package",
+                "source": {
+                    "url": "git@github.com:/walterwoshid/goaop-parser-reflection.git",
+                    "type": "git",
+                    "reference": "fork"
+                }
+            }
         }
     ],
 
