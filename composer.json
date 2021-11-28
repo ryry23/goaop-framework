@@ -1,5 +1,5 @@
 {
-    "name": "walterwoshid/framework",
+    "name": "walterwoshid/goaop-framework",
     "description": "Framework for aspect-oriented programming in PHP.",
 
     "type": "library",
